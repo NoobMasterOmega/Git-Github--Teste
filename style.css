@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif;  /*Tipo de fonte*/
+    background-color:wheat ; /*cor da pagina*/
+    color: brown; /*Cor geral*/ 
+    /*margin: 100px; margin é um espaço da borta até a estrutura de tela. (Obs: virou comentário para incrementar o flex e grid)*/
+    /*padding: 50px; padding  é a borda dentro do texto.*/
+}
+
+h1 {        /*Ex:1 Mudando a cor de forma individual de todo h1{} */
+    color: black;
+}
+
+p {         /*Ex:2 Mudando a cor de forma individual de todos paragrafos p{} */
+    color: blueviolet;
+}
+.diferenciado {   /*chamando a classe criada para definir a cor de apenas um item, usando .nome{} criando na classe. */
+    color: aqua;
+}
+
+#texto { /*Usado para especificar os atributos do seletor de id=" usando #nome{} */
+    color: azure; /*Alterar a cor do texto*/
+    font-size: large; /*Altera o tamanho do texto*/
+}
+.container1 {
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+.container2 {
+    display: grid ;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px ;
+}
